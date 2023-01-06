@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegTrashAlt } from 'react-icons/Fa';
+import { RiDeleteBin5Line } from 'react-icons/Ri';
 import { TodoType } from './App';
 
 interface TodosProps {
@@ -44,8 +44,11 @@ export const Todos: React.FC<TodosProps> = ({
               {todo.text}
             </label>
           </div>
-          <button className='cursor-pointer flex items-center'>
-            <FaRegTrashAlt onClick={() => handleDelete(todo.id)} />
+          <button
+            className='cursor-pointer flex items-center'
+            onClick={() => handleDelete(todo.id)}
+          >
+            <RiDeleteBin5Line />
           </button>
         </li>
       ))}
