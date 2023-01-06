@@ -1,5 +1,5 @@
 import React from 'react';
-import { RiDeleteBin5Line } from 'react-icons/Ri';
+import { RiDeleteBin5Line } from 'react-icons/ri';
 import { TodoType } from './App';
 
 interface TodosProps {
