@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen w-screen bg-gradient-to-r from-[#91b821] to-[#85c9a9] font-poppins;
+}
